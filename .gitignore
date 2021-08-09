@@ -1,0 +1,33 @@
+/MAKS.IR.AEM/bin/Debug/netcoreapp2.1/*.dll
+/MAKS.IR.AEM/bin/Debug/netcoreapp2.1/publish/CodeCoverage/amd64/*.dll
+*.dll
+
+
+#ignore build generated folder
+bin/
+obj/
+publish/
+Logs
+packages/**/*
+MAKS.IR.AEM/bin/**/*
+
+#ignore dll files
+*.dll
+
+#ignore Visual Studio generated items
+.vs/
+*.csproj.user
+packages/
+TestResults/
+
+#ignore cake built generated files
+tools/
+cake/
+
+#ignore sonarQube generated files
+.sonarqube/
+coverage.info
+report/
+coverage.opencover.xml
+
+
